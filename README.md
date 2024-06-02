@@ -1,11 +1,33 @@
-# Heart Disease Classification using Decision Tree
+# Heart Disease Classification Project
 
-This project involves classifying heart disease using a decision tree classifier. The dataset used for this analysis is sourced from the UCI Machine Learning Repository.
+## Introduction
+This project focuses on building a machine learning model to classify the presence of heart disease in patients. The dataset contains various medical attributes used to predict the likelihood of heart disease.
 
-## Dataset
+## Data Loading and Preprocessing
+- **Data Source**: The data is loaded from a CSV file using Pandas.
+- **Data Cleaning**: Initial inspection for missing values and data types.
+- **Feature Engineering**: Numerical features are scaled using StandardScaler from scikit-learn.
+  
 
-The dataset can be accessed from the following link:
-[Heart Disease Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data)
+## Model Building
+- **Data Splitting**: The data is split into training and test sets.
+- **Model Selection**: Random Forest Classifier.
+- **Hyperparameter Tuning**: GridSearchCV is used to find the best hyperparameters for the models.
+
+## Model Training and Evaluation
+- **Training**: Models are trained on the training set with the tuned hyperparameters.
+- **Evaluation**: Performance is evaluated using metrics like accuracy, precision, recall, F1 score, and confusion matrix on the test set.
+
+## Results
+- **Best Model**: Random Forest with parameters:
+  ```json
+  {
+    "max_depth": None,
+    "min_samples_leaf": 1,
+    "min_samples_split": 101,
+    "n_estimators": 100
+  }
+
 
 ## Results
 
