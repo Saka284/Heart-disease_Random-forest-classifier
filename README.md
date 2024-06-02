@@ -19,17 +19,6 @@ This project focuses on building a machine learning model to classify the presen
 - **Evaluation**: Performance is evaluated using metrics like accuracy, precision, recall, F1 score, and confusion matrix on the test set.
 
 ## Results
-- **Best Model**: Random Forest with parameters:
-  ```json
-  {
-    "max_depth": None,
-    "min_samples_leaf": 1,
-    "min_samples_split": 101,
-    "n_estimators": 100
-  }
-
-
-## Results
 
 The performance metrics of the decision tree classifier are as follows:
 
